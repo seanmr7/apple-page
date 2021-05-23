@@ -92,3 +92,63 @@ h3 {
   margin-top: 1.5rem;
   font-size: 1.5em;
 }
+
+ul.navbar {
+  display: flex;
+  position: absolute;
+  left: 300px;
+  top: 85px;
+  border: 1px solid black;
+  border-radius: 2.5%;
+  background: rgb(128,128,128);
+  background: linear-gradient(180deg, rgba(128,128,128,1) 0%, rgba(112,112,112,1) 50%, rgba(94,94,94,1) 51%, rgba(102,102,102,1) 100%);
+  justify-content: space-around;
+  align-items: center;
+  height: 36px;
+  width: 980px;
+}
+
+li {
+  
+  padding: 16px;
+  color: rgba(255, 255, 255, 0.911);
+  border-right: 1px solid black;
+  font-size: .87rem;
+}
+
+li:hover {
+
+}
+
+.bottom-row {
+  display: flex;
+  margin: 2px auto 0 auto;
+  justify-content: space-around;
+  width: 1440px;
+  height: 200px;
+}
+
+.promo {
+  margin: 0 1px 0 1px;
+}
+
+.promo-1 {
+  background-image: url("../assets/promo_iphone5s.jpg");
+  height: 200px;
+  width: 364px;
+}
+.promo-2 {
+  background-image: url("../assets/promo_iphone5c.jpg");
+  height: 200px;
+  width: 364px;
+}
+.promo-3 {
+  background-image: url("../assets/promo_30_years.jpg");
+  height: 200px;
+  width: 364px;
+}
+.promo-4 {
+  background-image: url("../assets/promo_supplier_responsibility.jpg");
+  height: 200px;
+  width: 364px;
+}
